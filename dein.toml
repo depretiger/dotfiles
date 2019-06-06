@@ -1,7 +1,25 @@
 [[plugins]]
 repo = 'Shougo/dein.vim'
 
+[[plugins]]
+repo = 'plasticboy/vim-markdown'
+
+[[plugins]]
+repo = 'kannokanno/previm'
+
+[[plugins]]
+repo = 'tyru/open-browser.vim'
 
 
 [[plugins]]
+repo = 'othree/yajs.vim'
+
+[[plugins]]
 repo = 'Townk/vim-autoclose'
+
+# neosnippet----------------
+[[plugins]]
+repo = 'Shougo/neosnippet.vim'
+
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
