@@ -10,12 +10,11 @@ repo = 'kannokanno/previm'
 [[plugins]]
 repo = 'tyru/open-browser.vim'
 
-
 [[plugins]]
 repo = 'othree/yajs.vim'
 
 [[plugins]]
-repo = 'Townk/vim-autoclose'
+repo = 'cohama/lexima.vim'
 
 # neosnippet----------------
 [[plugins]]
@@ -23,3 +22,12 @@ repo = 'Shougo/neosnippet.vim'
 
 [[plugins]]
 repo = 'Shougo/neosnippet-snippets'
+
+[[plugins]]
+repo = 'w0ng/vim-hybrid'
+
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+hook_add = '''
+    let g:lightline = {'colorscheme': 'wombat'}
+'''

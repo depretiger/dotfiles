@@ -9,7 +9,6 @@ set runtimepath+=/Users/Taiga/.cache/dein/repos/github.com/Shougo/dein.vim
 " Required:
 if dein#load_state('/Users/Taiga/.cache/dein')
   call dein#begin('/Users/Taiga/.cache/dein')
-
   call dein#load_toml('~/.config/nvim/dein.toml', {'lazy': 0})
   call dein#load_toml('~/.config/nvim/dein_lazy.toml', {'lazy': 1})
   call dein#end()
@@ -31,8 +30,8 @@ set encoding=utf-8
 scriptencoding utf-8
 
 " japanesqueを使う 
-colorscheme japanesque
-
+" colorscheme japanesque
+colorscheme hybrid
 " setting
 "文字コードをUFT-8に設定
 set fenc=utf-8
@@ -53,10 +52,13 @@ set showcmd
 set number
 " 現在の行を強調表示
 set cursorline
+hi clear CursorLine
 " 行末の1文字先までカーソルを移動できるように
 " set virtualedit=onemore
 " インデントはスマートインデント
 set smartindent
+" 改行時に前の行のインデントを継続する
+set autoindent
 " 括弧入力時の対応する括弧を表示
 set showmatch
 " ステータスラインを常に表示
@@ -76,9 +78,9 @@ set list listchars=tab:\▸\-
 " Tab文字を半角スペースにする
 set expandtab
 " 行頭以外のTab文字の表示幅（スペースいくつ分）
-set tabstop=2
+set tabstop=4
 " 行頭でのTab文字の表示幅
-set shiftwidth=2
+set shiftwidth=4
 
 
 " 検索系
@@ -109,6 +111,7 @@ noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
+
 
 " 拡張子の設定
 autocmd BufNewFile,BufRead *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdown
