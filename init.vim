@@ -115,6 +115,13 @@ noremap <Right> <Nop>
 " コマンドライン履歴の呼び出し
 cnoremap <C-p> <Up>
 cnoremap <C-n> <Down>
+
+"Vimのリストをサクサク移動するためのキーマッピング
+nnoremap <silent> [b :bprevious<CR>
+nnoremap <silent> ]b :bnext<CR>
+nnoremap <silent> [B :bfirst<CR>
+nnoremap <silent> ]B :blast<CR>
+
 " 拡張子の設定
 autocmd BufNewFile,BufRead *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdown
 " previmの設定
