@@ -16,6 +16,12 @@ repo = 'othree/yajs.vim'
 [[plugins]]
 repo = 'cohama/lexima.vim'
 
+[[plugins]]
+repo = "airblade/vim-gitgutter"
+
+[[plugins]]
+repo = "tpope/vim-fugitive"
+
 # neosnippet----------------
 [[plugins]]
 repo = 'Shougo/neosnippet.vim'
