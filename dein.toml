@@ -2,6 +2,9 @@
 repo = 'Shougo/dein.vim'
 
 [[plugins]]
+repo = 'fatih/vim-go'
+
+[[plugins]]
 repo = 'plasticboy/vim-markdown'
 
 [[plugins]]
