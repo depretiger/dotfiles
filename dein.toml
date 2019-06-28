@@ -5,6 +5,9 @@ repo = 'Shougo/dein.vim'
 repo = 'fatih/vim-go'
 
 [[plugins]]
+repo = 'tpope/vim-surround'
+
+[[plugins]]
 repo = 'plasticboy/vim-markdown'
 
 [[plugins]]
