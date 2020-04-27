@@ -5,3 +5,6 @@
 3. ln -s ~/dotfiles/.vimrc .vimrc 
 4. mkdir .vim
 5. ln -s ~/dotfiles/colors .vim/colors
+6. sudo yum install zsh
+7. usermod -s /bin/zsh
+8. ln -s ~/dotfiles.zshrc .zshrc

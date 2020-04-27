@@ -2,10 +2,22 @@
 repo = 'Shougo/dein.vim'
 
 [[plugins]]
+repo = 'mattn/emmet-vim'
+
+[[plugins]]
+repo = 'Shougo/unite.vim'
+
+[[plugins]]
 repo = 'fatih/vim-go'
 
 [[plugins]]
 repo = 'tpope/vim-surround'
+
+[[plugins]]
+repo = 'roxma/nvim-yarp'
+
+[[plugins]]
+repo = 'roxma/vim-hug-neovim-rpc'
 
 [[plugins]]
 repo = 'plasticboy/vim-markdown'
@@ -35,8 +47,12 @@ repo = 'Shougo/neosnippet.vim'
 [[plugins]]
 repo = 'Shougo/neosnippet-snippets'
 
+
 [[plugins]]
 repo = 'w0ng/vim-hybrid'
+
+[[plugins]]
+repo = 'lervag/vimtex'
 
 [[plugins]]
 repo = 'itchyny/lightline.vim'

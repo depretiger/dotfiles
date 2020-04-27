@@ -128,8 +128,8 @@ nnoremap <silent> ]B :blast<CR>
 "アクティブなファイルが含まれているディレクトリを手早く展開
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
 
-" vimでヤンクカットするとクリップボードにもコピーされるようになる
-set clipboard+=unnamed
+" vimでヤンクカットするとクリップボードにもコピーされるようになる これいらない
+" set clipboard+=unnamed
 
 " 拡張子の設定
 autocmd BufNewFile,BufRead *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdown
@@ -139,3 +139,10 @@ let g:previm_open_cmd = 'open -a Safari'
 "go-vim設定
 let g:go_bin_path = $GOPATH.'/bin'
 
+" Autocomplete-flowの設定
+let g:deoplete#enable_at_startup = 1
+let g:neosnippet#enable_completed_snippet = 1
+
+"  latexmkの設定
+let g:latex_latexmk_options = '-pdfdvi'
+let g:vimtex_compiler_latexmk_engines = { '_' : '-pdfdvi' }
