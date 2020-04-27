@@ -5,6 +5,8 @@
 3. ln -s ~/dotfiles/.vimrc .vimrc 
 4. mkdir .vim
 5. ln -s ~/dotfiles/colors .vim/colors
+6. yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+7. yum install -y neovim python3-neovim
 
 ## zsh
 1. sudo yum install zsh
