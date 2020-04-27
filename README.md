@@ -11,3 +11,4 @@
 2. chsh -s /bin/zsh
 3. ln -s ~/dotfiles/.zshrc .zshrc
 4. git clone git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+5. git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/themes/powerlevel9k
