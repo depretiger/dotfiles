@@ -5,6 +5,9 @@
 3. ln -s ~/dotfiles/.vimrc .vimrc 
 4. mkdir .vim
 5. ln -s ~/dotfiles/colors .vim/colors
-6. sudo yum install zsh
-7. chsh -s /bin/zsh
-8. ln -s ~/dotfiles/.zshrc .zshrc
+
+## zsh
+1. sudo yum install zsh
+2. chsh -s /bin/zsh
+3. ln -s ~/dotfiles/.zshrc .zshrc
+4. git clone git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh

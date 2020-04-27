@@ -92,8 +92,8 @@ nnoremap <silent> ]B :blast<CR>
 "アクティブなファイルが含まれているディレクトリを手早く展開
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
 
-" vimでヤンクカットするとクリップボードにもコピーされるようになる
-set clipboard+=unnamed
+" vimでヤンクカットするとクリップボードにもコピーされるようになる これいらない
+" set clipboard+=unnamed
 
 " 拡張子の設定
 autocmd BufNewFile,BufRead *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdown
