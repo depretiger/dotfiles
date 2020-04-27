@@ -1,5 +1,6 @@
 # Vimとかの設定ファイル
-## 初期設定
+
+## nvim
 1. cd ~
 2. git clone https://github.com/depretiger/dotfiles.git
 3. ln -s ~/dotfiles/.vimrc .vimrc 
@@ -7,6 +8,12 @@
 5. ln -s ~/dotfiles/colors .vim/colors
 6. yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 7. yum install -y neovim python3-neovim
+8. mkdir  .config
+9. ln -s ~/dotfiles/init.vim .config/nvim/init.vim
+10. pip install -U neovim
+11. mkdir ~/.vim/dein
+12. curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+13. sh ./installer.sh ~/.vim/dein
 
 ## zsh
 1. sudo yum install zsh
