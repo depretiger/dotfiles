@@ -11,9 +11,12 @@
 8. mkdir  .config
 9. ln -s ~/dotfiles/init.vim .config/nvim/init.vim
 10. pip install -U neovim
-11. mkdir ~/.vim/dein
-12. curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
-13. sh ./installer.sh ~/.vim/dein
+11. mkdir -p ~/.cache/dein
+12. cd ~/.cache/dein
+13. curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+14. sh ./installer.sh ~/.cache/dein
+15. ln -s ~/dotfiles/dein.toml ~/.config/nvim/dein.toml
+16. ln -s ~/dotfiles/dein_lazy.toml ~/.config/nvim/dein_lazy.toml
 
 ## zsh
 1. sudo yum install zsh
