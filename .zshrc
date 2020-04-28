@@ -112,7 +112,7 @@ fi
 alias safari="open -a /Applications/Safari.app"
 alias chrome="open -a /Applications/Google\ Chrome.app"
 # ls（カラー表示）
-alias ls='ls -G'
+alias ls='ls -color'
 alias ll='ls -lG'
 alias la='ls -laG'
 # nvimを基本使う
