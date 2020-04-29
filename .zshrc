@@ -66,8 +66,12 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 
-# ls（カラー表示）
-alias ls='ls -CG'
+## file/dir command
+if [ $(uname) = "Darwin" ]; then
+    alias ls='ls -G '
+elif [ $(uname) = "Linux" ]; then
+    alias ls='ls -F --color=always '
+fi
 alias ll='ls -lG'
 alias la='ls -laG'
 
