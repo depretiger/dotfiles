@@ -67,14 +67,13 @@ if command -v pyenv 1>/dev/null 2>&1; then
 fi
 
 # ls（カラー表示）
-alias ls='ls --color'
+alias ls='ls -color -G'
 alias ll='ls -lG'
 alias la='ls -laG'
 
 # safariで開く
 alias safari="open -a /Applications/Safari.app"
 alias chrome="open -a /Applications/Google\ Chrome.app"
-<<<<<<< HEAD
 
 # nvimを基本使う
 alias vi='nvim'
