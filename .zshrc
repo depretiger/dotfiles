@@ -67,7 +67,7 @@ if command -v pyenv 1>/dev/null 2>&1; then
 fi
 
 # ls（カラー表示）
-alias ls='ls -color -G'
+alias ls='ls -CG'
 alias ll='ls -lG'
 alias la='ls -laG'
 
