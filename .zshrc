@@ -74,7 +74,14 @@ alias la='ls -laG'
 # safariで開く
 alias safari="open -a /Applications/Safari.app"
 alias chrome="open -a /Applications/Google\ Chrome.app"
+<<<<<<< HEAD
 
+=======
+# ls（カラー表示）
+alias ls='ls -color'
+alias ll='ls -lG'
+alias la='ls -laG'
+>>>>>>> 31124b96169447c890a5bfd1d102ed6bbdbea67e
 # nvimを基本使う
 alias vi='nvim'
 alias vim='nvim'
